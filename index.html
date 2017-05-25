@@ -99,7 +99,9 @@ eventbrite: 34258502102          # optional: alphanumeric key for Eventbrite reg
 {% if page.latlng %}
 <p id="where">
   <strong>Where:</strong>
-  {{page.address}}.
+  {{page.address}}. 
+  See the <a href="http://myjax-p.jax.org/Facilities/engineering/GeneralMap/rl_locator_map.pdf">campus map</a>
+  for building 1, unit 5.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
